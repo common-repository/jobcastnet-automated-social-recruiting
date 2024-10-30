@@ -1,0 +1,239 @@
+/* text */
+
+#jobcast_plugin .rightText {
+	width :100%;
+}
+
+#jobcast_plugin #pluginContainer h2 {
+	font-family: 'Roboto Slab', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+}
+#jobcast_plugin hr {
+	margin: 4em 5em;
+	border: solid 1px #00D9FF;
+}
+
+/* Header */
+
+#jobcast_plugin .header {
+	width: 100%;
+	height: 100px;
+	background-color: #F1F1F1;
+}
+
+#jobcast_plugin .head {
+	height: 100px;
+}
+
+#jobcast_plugin #logo {
+	background: url('https://app.jobcast.net/dashboard/images/jobcast-logo.svg');
+	background-repeat: no-repeat;
+	float: left;
+	height: 60px;
+	width: 170px;
+	margin-left: 10%;
+	margin-top: 1.5%;
+}
+
+#jobcast_plugin ul.nav {
+	float: right;
+	list-style: none;
+}
+
+
+
+/* Body */
+
+#jobcast_plugin .container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	color: #444;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: Roboto, 'Open Sans', Arial, sans-serif;
+	overflow: hidden;
+}
+
+#jobcast_plugin #homepageHeader {
+	margin-top: 2rem;
+	font-weight: 300;
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#jobcast_plugin section {
+    margin-top: 50px;
+}
+
+/* Left side */
+#jobcast_plugin .left {
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding: 2em;
+}
+
+#jobcast_plugin .buttons input {
+	border: 0;
+	color: inherit;
+	font: inherit;
+	outline: 0;
+	width: 70%;
+	padding: 7%;
+	transition: background-color .3s;
+	margin: 3%;
+	background-color: #E31F8E;
+	color: white;
+	-webkit-appearance: none;
+}
+
+#jobcast_plugin .buttons {
+	background-color: #e4e4e4;
+	padding: 4%;
+	margin: 5%;
+	margin-bottom: 7%;
+	-webkit-appearance: none;
+	align-content: center;
+}
+
+#jobcast_plugin #addJob, 
+#jobcast_plugin #manageJobs, 
+#jobcast_plugin #branding {
+	cursor: pointer;
+}
+
+
+/* Select dropdown : */
+#jobcast_plugin .select-style {
+	padding: 0;
+	margin: 0;
+	border: 1px solid #ccc;
+	width: 70%;
+	margin-left: 15%;
+	border-radius: 3px;
+	overflow: hidden;
+	background-color: #fff;
+	background: #fff url("arrowdown.gif") no-repeat 90% 50%;
+}
+#jobcast_plugin .select-style select {
+	padding: 5px 8px;
+	width: 130%;
+	height: 100%;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	background-image: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+#jobcast_plugin .select-style option {
+	padding: 5px 8px;
+	width: 130%;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	background-image: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+#jobcast_plugin .select-style select:focus {
+	outline: none;
+}
+/* right */
+
+#jobcast_plugin #right {
+	margin-right: 0px;
+	padding: 2%;
+	margin-left: 3%;
+	width: 65%;
+}
+#jobcast_plugin #right h2 {
+	width: 100%;
+}
+
+#jobcast_plugin .col {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#jobcast_plugin .col.display {
+    margin: 0 auto;
+    padding: 0 2.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #e4e4e4;
+    align-content: center;
+    text-align: center;
+}
+
+#jobcast_plugin #embeded {
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-weight: 550;
+	font-size: 20px;
+	cursor: text;
+}
+
+#jobcast_plugin #demoIMG {
+    background: url('demoshortcode.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+
+/*
+Responsive
+*/
+
+
+#jobcast_plugin #right h1 {
+  text-align: center;
+}
+@media all and (max-width: 775px) {
+  #jobcast_plugin .container {
+    width: 95%;
+  }
+  #jobcast_plugin .left {
+    width: 100%;
+  }
+  #jobcast_plugin .buttons {
+    margin: 5%;
+  }
+  #jobcast_plugin input {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #jobcast_plugin .header {
+    height: auto;
+    padding-top: 10px;
+    background: #eee;
+  }
+  #jobcast_plugin #logo {
+    position: initial;
+    float: none;
+    display: block;
+    transform: none;
+    margin: 0 auto;
+  }
+
+  #jobcast_plugin .left {
+    float: none;
+    width: 100%;
+  }
+  #jobcast_plugin #right {
+    width: 100%;
+  }
+}
+@media ( min-width: 775px) {
+  #jobcast_plugin section {
+    display: -webkit-flex;
+    display: flex;
+  }
+}

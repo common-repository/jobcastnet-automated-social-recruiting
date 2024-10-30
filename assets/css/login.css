@@ -1,0 +1,191 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,100);
+
+
+/* Icons */
+#jobcast_plugin .fontawesome-user:before,
+#jobcast_plugin .fontawesome-lock:before,
+#jobcast_plugin .fontawesome-envelope-alt:before,
+#jobcast_plugin .fontawesome-envelope:before,
+#jobcast_plugin .fontawesome-briefcase:before,
+#jobcast_plugin .fontawesome-arrow-right:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+/* General */
+#jobcast_plugin * {
+    box-sizing: border-box;
+}
+
+#jobcast_plugin #pluginContainer {
+	background: url('bg.png'); 
+	width:98.5%;
+	background-color: white;
+	-webkit-box-shadow: 0 0 1rem #7F7F7F;
+	-moz-box-shadow: 0 0 1rem #7F7F7F;
+	box-shadow: 0 0 1rem #7F7F7F;
+}
+
+#jobcast_plugin .wrap {
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Header */
+
+#jobcast_plugin .login-header {
+    color: black;
+    text-align:center;
+    height: 100%;
+}
+
+#jobcast_plugin .login-header h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+#jobcast_plugin .login-header h2 {
+    font-weight: 100;
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+}
+
+
+/* Body */
+#jobcast_plugin #registerLastName,
+#jobcast_plugin #registerFirstName,
+#jobcast_plugin #registerPassword,
+#jobcast_plugin #loginPassword {
+    margin-left: 5px;
+}
+
+#jobcast_plugin a {
+    outline: 0;
+    text-decoration: none;
+    color: black;
+}
+
+#jobcast_plugin input {
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: background-color .3s;
+}
+
+#jobcast_plugin .form input {
+    width: 100%;
+}
+
+#jobcast_plugin .formField {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#jobcast_plugin .formInput {
+    flex: 1;
+    background-color: #F5F5F5;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    color: black;
+}
+
+#jobcast_plugin .formInput:hover, 
+#jobcast_plugin .formInput:focus {
+    background-color: ghostwhite;
+}
+
+#jobcast_plugin .formInput:focus {
+    -webkit-box-shadow: 0 0 1rem #7F7F7F;
+    -moz-box-shadow: 0 0 1rem #7F7F7F;
+    box-shadow: 0 0 1rem #7F7F7F;
+}
+
+#jobcast_plugin .form label {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+#jobcast_plugin label, 
+#jobcast_plugin input {
+    border-radius: 0;
+    padding: 1rem;
+}
+
+#jobcast_plugin #formSubmit {
+    background-color: #E31F8E;
+    color: #eee;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+}
+
+#jobcast_plugin #formSubmit:hover, 
+#jobcast_plugin #formSubmit:focus {
+    background-color: #d44179;
+}
+
+#jobcast_plugin .hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+#jobcast_plugin .textCenter {
+    text-align: center;
+}
+#jobcast_plugin .signIn {
+    color: #0088e0;
+    font-weight: bold;
+}
+
+#jobcast_plugin .gridContainer {
+    margin: 0 auto;
+    max-width: 20rem;
+    width: 90%;
+}
+
+/* error */
+#jobcast_plugin .errContainer {
+	margin:5px;
+}
+
+#jobcast_plugin .displayError{
+	width:60%;
+	background-color: #ffffff;
+	padding: 20px;
+	border:1px solid #eee;
+	border-left-width:5px;
+	border-radius: 3px;
+	margin: 10px auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border-left-color: #d9534f;
+	background-color: rgba(217, 83, 79, 0.1);
+}
+
+#jobcast_plugin .displayError strong{
+	color:#d9534f;
+}
+
+@media (max-width: 658px) {
+    #jobcast_plugin .login-header h1 {
+        font-size: 3rem;
+    }
+}
